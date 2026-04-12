@@ -61,14 +61,13 @@ heart-sleeve/
 
 ## System Architecture
 
-The device consists of four integrated subsystems:
+The device consists of three integrated subsystems:
 
 | Subsystem | Description |
 |---|---|
 | **Heart Sleeve** | Silicone sleeve with embedded Hydraulic Actuated Muscle (HAM) actuators (circumferential + helical) |
 | **Hydraulic Actuation System** | Pump(s), solenoid valves, pressure regulators, and fluid lines |
 | **Control System** | Arduino Mega + MATLAB Simulink; closed-loop pressure control with simulated cardiac synchronisation |
-| **Sensor Sleeve** | Secondary silicone sleeve housing pressure sensor array, sits between epicardium and device |
 
 ### Control System
 
