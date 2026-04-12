@@ -10,8 +10,6 @@
 
 ## Overview
 
-Heart failure affects nearly 2,000 Australians annually and millions worldwide. Current treatment — ventricular assist devices (VADs) — requires invasive blood-contact implantation and carries long-term risks including thromboembolism and infection.
-
 This project develops a **soft robotic sleeve** that wraps around the exterior of the heart, assisting contraction through hydraulically actuated silicone actuators. The device does not contact blood, avoids anticoagulation requirements, and mimics the natural biomechanics of the myocardium by combining circumferential compression and helical twisting motions.
 
 The project spans mechanical design, soft actuator fabrication, fluid power systems, embedded control, and sensor integration — validated against a custom cardiac phantom test bed.
@@ -67,9 +65,9 @@ The device consists of four integrated subsystems:
 
 | Subsystem | Description |
 |---|---|
-| **Heart Sleeve** | Silicone sleeve with embedded PAM actuators (circumferential + helical) |
+| **Heart Sleeve** | Silicone sleeve with embedded Hydraulic Actuated Muscle (HAM) actuators (circumferential + helical) |
 | **Hydraulic Actuation System** | Pump(s), solenoid valves, pressure regulators, and fluid lines |
-| **Control System** | Arduino Mega + MATLAB Simulink; closed-loop pressure control with cardiac synchronisation |
+| **Control System** | Arduino Mega + MATLAB Simulink; closed-loop pressure control with simulated cardiac synchronisation |
 | **Sensor Sleeve** | Secondary silicone sleeve housing pressure sensor array, sits between epicardium and device |
 
 ### Control System
