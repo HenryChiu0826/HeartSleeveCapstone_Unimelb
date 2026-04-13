@@ -98,29 +98,6 @@ The control system interfaces an **Arduino Mega 2560** with **MATLAB Simulink** 
 - DC diaphragm pump(s)
 - Pressure sensors (e.g., MPXHZ6400 or equivalent, 0–400 kPa range)
 
-### Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/heart-sleeve.git
-   cd heart-sleeve
-   ```
-
-2. Open MATLAB and navigate to `control/simulink/`
-
-3. In Simulink, go to **Model Settings → Hardware Implementation** and select *Arduino Mega 2560*
-
-4. Connect Arduino via USB and run the open-loop valve test first:
-   ```
-   control/simulink/open_loop_test.slx
-   ```
-
-5. Once hardware is verified, proceed to `pressure_pid.slx` for closed-loop testing
-
-For full setup instructions, see [`control/README.md`](control/README.md).
-
----
-
 ## Fabrication
 
 Silicone actuators are cast using **3D-printed PLA molds** (FDM for early prototypes, SLA for final geometry). Final sleeve models are manufactured via SLA silicone printing through FabLab.
